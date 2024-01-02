@@ -1,0 +1,146 @@
+:root {
+  --yellow:  hsl(47, 88%, 63%);
+  --black: hsl(0, 0%, 7%);
+  --grey: hsl(0, 0%, 50%);
+  --white: hsl(0, 0%, 100%);
+}
+/* General Rules  */
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Figtree', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--yellow);
+  height: 100vh;
+}
+p {
+  font-size: 16px;
+}
+
+/* General Rules  */
+
+/* Start Card */
+.card {
+  background: var(--white);
+  max-width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: center;
+  border: 2px solid var(--black);
+  box-shadow: 10px 10px 0 1px var(--black);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+@media (max-width: 767px) {
+  .card {
+    max-width: 370px;
+  }
+}
+.card img:not(.logo) {
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.card .head {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.card span:not(:last-of-type) {
+  display: block;
+  margin-bottom: 15px;
+}
+.card .type {
+  font-size: 18px;
+  background: var(--yellow);
+  width: fit-content;
+  margin: 0 auto 15px 0;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-weight: 800;
+}
+.card h2 {
+  flex: 1;
+  margin-bottom: 15px;
+}
+.card p {
+  color: var(--grey);
+  line-height: 1.6;
+}
+.footer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.card .logo {
+  width: 35px;
+  height: 35px;
+}
+.card .logo + span {
+  font-weight: 800;
+}
+/* End Card */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
